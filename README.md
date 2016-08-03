@@ -18,3 +18,9 @@ Available commands:
   latest   Lists latest version.
   list     Lists tags.
 ```
+
+# Install
+
+```
+$ pub global activate -s git git@github.com:damondouglas/sdk_version.dart.git
+```
