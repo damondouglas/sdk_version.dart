@@ -24,3 +24,11 @@ Available commands:
 ```
 $ pub global activate -s git git@github.com:damondouglas/sdk_version.dart.git
 ```
+
+# Example
+
+```
+$ sdk_version latest
+
+1.18.1
+```
