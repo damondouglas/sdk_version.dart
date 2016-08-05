@@ -17,6 +17,7 @@ Available commands:
   help     Display help information for sdk_version.
   latest   Lists latest version.
   list     Lists tags.
+  local    Gets local dart version.
 ```
 
 # Install

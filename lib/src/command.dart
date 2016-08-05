@@ -31,7 +31,7 @@ class LatestCommand extends args.Command {
 
 class LocalCommand extends args.Command {
   final name = "local";
-  final description = "Compares local dart version against latest.";
+  final description = "Gets local dart version.";
 
   Future run() async {
     var sdkHome = Platform.environment['DART_SDK'];
