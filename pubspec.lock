@@ -6,7 +6,7 @@ packages:
       name: analyzer
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.25.0+1"
+    version: "0.27.4"
   args:
     description:
       name: args
@@ -61,6 +61,12 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.1"
+  csslib:
+    description:
+      name: csslib
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.13.2"
   git:
     description:
       name: git
@@ -73,6 +79,12 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.1.3"
+  html:
+    description:
+      name: html
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.13.0"
   http:
     description:
       name: http
@@ -91,6 +103,18 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.0.2"
+  isolate:
+    description:
+      name: isolate
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.2.2"
+  logging:
+    description:
+      name: logging
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.11.3+1"
   matcher:
     description:
       name: matcher
@@ -121,6 +145,12 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.3.9"
+  plugin:
+    description:
+      name: plugin
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.2.0"
   pool:
     description:
       name: pool
@@ -133,19 +163,18 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.3.0"
-  semver:
-    description:
-      ref: HEAD
-      resolved-ref: "715550dcf28cab8e25220c5c4c0cbdcd5f4a5cb9"
-      url: "git@github.com:damondouglas/dart-semver.git"
-    source: git
-    version: "0.2.1"
   shelf:
     description:
       name: shelf
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.6.5+2"
+  shelf_packages_handler:
+    description:
+      name: shelf_packages_handler
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0"
   shelf_static:
     description:
       name: shelf_static
@@ -193,19 +222,25 @@ packages:
       name: string_scanner
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.1.5"
+    version: "1.0.0"
   test:
     description:
       name: test
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.12.15+1"
+    version: "0.12.15+2"
   typed_data:
     description:
       name: typed_data
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.1.3"
+  utf:
+    description:
+      name: utf
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.9.0+3"
   watcher:
     description:
       name: watcher
@@ -236,4 +271,4 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.10"
-sdk: ">=1.17.0-dev.6.2 <1.20.0"
+sdk: ">=1.17.0-dev.6.2 <2.0.0"

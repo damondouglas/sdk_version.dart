@@ -7,5 +7,6 @@ void run(List<String> args) {
   var runner = new CommandRunner("sdk_version", "")
     ..addCommand(new ListCommand())
     ..addCommand(new LatestCommand())
+    ..addCommand(new LocalCommand())
     ..run(args);
 }
